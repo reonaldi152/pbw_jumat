@@ -36,8 +36,8 @@
                 <td><?php echo $d['nrp']; ?></td>
                 <td><?php echo $d['alamat']; ?></td>
                 <td>
-                    <a href="">EDIT</a> |
-                    <a href="">HAPUS</a>
+                    <a href="edit.php?id=<?php echo $d['id']; ?>">EDIT</a> |
+                    <a href="hapus.php?id=<?php echo $d['id']; ?>">HAPUS</a>
                 </td>
             </tr>
         <?php
